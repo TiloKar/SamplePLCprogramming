@@ -1,0 +1,4 @@
+VAR CONSTANT
+	pCO2_a1 : REAL := 2.574991E008; (*Hilfskoeffizient für pCO2*)
+	pCO2_a2 : REAL := -2.35496; (*Hilfskoeffizient für pCO2*)
+END_VAR

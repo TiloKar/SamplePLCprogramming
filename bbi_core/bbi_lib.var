@@ -1,0 +1,30 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: bbi_lib.var
+ * Author: tilo
+ * Created: May 18, 2010
+ ********************************************************************
+ * 
+ ********************************************************************)
+VAR CONSTANT
+	nALERTS : USINT := 31; (*Größe der Fehlerarrays außer X20*)
+	ALERTBUFSIZE : UDINT := 100000;
+	ALLCHANNELS : USINT := ncI+ncO+ncCL+2;
+	LOCALDEVICE : STRING[30] := 'RCP_HOME';
+	ncCL : USINT := 15;
+	ncCLlist : USINT := ncCL+1;
+	ncI : USINT := 63;
+	ncIlist : USINT := ncI+1;
+	nConf : USINT := 9; (*Anzahl der Konfigurationen*)
+	nFACEPLTYPES : USINT := 9;
+	nLANGUAGES : USINT := 1;
+	nPAGES : USINT := 10; (*Anzahl der Hauptseiten*)
+	nPROFILE : USINT := 9;
+	nPROFILELINPAR : USINT := 31;
+	nPROFILETRENDSAMPLES : UDINT := 599;
+	nTOWmax : USINT := 5;
+	nUNITSmax : USINT := 11;
+	PW_SERVICE : STRING[30] := 'fks';
+	USBDEVICE : STRING[30] := 'USB1';
+END_VAR

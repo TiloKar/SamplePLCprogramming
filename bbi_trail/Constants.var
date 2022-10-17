@@ -1,0 +1,4 @@
+VAR CONSTANT
+	TRAIL_ENTRIES : UINT := 29; (*puffergröße für audittrail events*)
+	TRAIL_ENTRIES_COUNT : UINT := TRAIL_ENTRIES + 1; (*maximalanzahl der Enträge = null zeiger*)
+END_VAR

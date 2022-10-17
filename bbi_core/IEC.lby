@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.9.79 SP?>
+<Library Version="3.00.0" Description="A new source library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>bbi_core.st</File>
+    <File>bbi_lib.typ</File>
+    <File>bbi_core.fun</File>
+    <File Description="Arbeitskonstranten">bbi_lib.var</File>
+  </Files>
+</Library>
